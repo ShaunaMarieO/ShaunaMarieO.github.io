@@ -1,0 +1,9 @@
+body {background-color: AliceBlue; border: 3px solid teal; padding: 25px;}
+img {margin: 20px; width: 300px; height: 300px;}
+h2 {font-family: gigi;}
+h4 {font-family: gigi;}
+aside {margin-left: 30px}
+.knitting {border: 1px dashed cyan; padding: 25px;}
+.crocheting {border: 1px dotted blue; padding: 25px;}
+.exposition {color: steelblue;}
+#bigtext {font-size: 250%; font-family: gigi;}
