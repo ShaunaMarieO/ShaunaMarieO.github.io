@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Javascript Exercises</title>
+	</head>
+	<body>
+		<script>
+			/*
+			Part 1:
+			a) the typeof operator returns the type of operand, in this case the variable z. The alert will state the type.
+			b) indicates that a variable is boolean value, meaning true or false. The alert will state the boolean value.
+			c) the alert will tell us the remainder when 7 is divided by 2. It is because the modulus is an arithmetic operator.
+			d) The alert will return "Wanda Smith", because the value of the variable is "Wanda" and the alert uses that variable in combination with "Smith."
+			e) the alert will state the value of the variable myNum plus 2, therefore "7".
+
+			Part 2:
+			1. Java is a static language, Javascript is a dynamic language. Javascript is a scripting language that is generally used to add interactivity to webpages and can be added to HTML. Java is used by itself and makes compiled programs.
+			2. + is an arithmetic operator that adds values. ++ is an increment operator and adds plus one every time it is run.
+			3. window.alert() gives a pop-up, document.write() writes the text on the webpage, and console.log() logs data in a browser's console, if that browser has a console.
+			4. = is an assignment operator. == means equal to and compares values, === is strictly equal to and compares both values and data types.
+			5. a while loop runs as long as the condition is true. The difference between that and a do while loop is that a do while loop always runs at least one time, even if the condition is false.
+			*/
+			var name;
+			var i;
+
+			name = prompt("What is your name?", "Name");
+
+			name = name.toUpperCase();
+
+			for (i = 0; i < 3; i++) {
+				document.write("Welcome " + name + "! ");
+			}
+
+		</script>
+	</body>
+</html>
