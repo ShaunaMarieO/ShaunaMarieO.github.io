@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<title>Fizz Buzz</title>
+</head>
+<body>
+	<h3>Fizz Buzz</h3>
+	<button id="buzz"">Click here</button> <!-- the button that triggers the function -->
+	<p id="fizz"></p> <!-- the paragraph where the numbers/words will go -->
+
+	<script>
+		var button = document.getElementById("buzz");
+		var i = 1;
+		var text = "";
+
+		// the function below prints numbers 1-100 with exceptions and uses if/else statements for the exceptions; if divisible by 3 it shows "FIZZ", else if divisible by 5 (but not by 3) it shows "BUZZ", else it simply prints the number
+		function abracadabra () {
+			while (i <= 100) {
+				if (i % 3 === 0) {
+					text = text + "FIZZ<br />";
+				} else if (i % 5 === 0 && i % 3 !== 0) {
+					text = text + "BUZZ<br />";
+				} else {
+					text = text + i + "<br />";
+				}
+				i++;
+			}
+			document.getElementById("fizz").innerHTML = text; // gets the paragraph with the id "fizz" and gives it the value of the "text" variable
+		}
+
+		button.onclick = abracadabra; // when the button is clicked, it runs the function
+
+	</script>
+</body>
+<!-- Created by Shauna Ochs on March 10th, 2020. -->
+</html>
