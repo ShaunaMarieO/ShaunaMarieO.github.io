@@ -1,0 +1,41 @@
+body {
+background-color: plum;
+font-family: "Kristen ITC", Calibri, Times;
+font-size: 20px;
+text-align: center;
+color: deepPink;
+text-shadow: 1.5px 1.5px mediumVioletRed;
+}
+
+div {
+border: 5px dashed indigo;
+border-radius: 20px;
+margin: 25px 400px 25px 400px;
+padding: 25px;
+}
+
+#firstDice, #secondDice {
+border: 0px;
+}
+
+button {
+text-align: center;
+background-color: pink;
+color: deepPink;
+padding: 10px 20px;
+font-family: "Kristen ITC", Calibri, Times;
+font-size: 20px;
+cursor: pointer;
+text-shadow: 1.5px 1.5px mediumVioletRed;
+border-radius: 20px;
+}
+
+button:hover {
+background-color: lightPink;
+}
+
+a {
+font-size: 12px;
+color: deepPink;
+text-shadow: 1px 1px mediumVioletRed;
+}
